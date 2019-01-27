@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+{% load pinax_webanalytics_tags %}
+{% load i18n %}
+
+
+{% block styles %}
+    <link href="{% static "css/app.css" %}" rel="stylesheet" />
+    <link href="{% static "css/custom.css" %}" rel="stylesheet" />
+{% endblock %}
+
+
+{% block extra_head_base %}
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    {% block extra_head %}{% endblock %}
+{% endblock %}
+
+
+{% block topbar_base %}
+{#<header>#}
+{#    <div class="navbar {% block navbar_class %}navbar-expand-lg navbar-light bg-light{% endblock %}">#}
+{#        <div class="container">#}
+{#        {% block topbar %}#}
+{#            {% block site_brand %}<a class="navbar-brand" href="{% url "home" %}">{{ SITE_NAME }}</a>{% endblock %}#}
+{#            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">#}
+{#                <span class="fa fa-bars"></span>#}
+{#            </button>#}
+{##}
+{#            <div class="collapse navbar-collapse" id="navbarSupportedContent">#}
+{#                {% block nav %}#}
+{#                    <ul class="navbar-nav mr-auto">#}
+{#                        {% block nav_items %}{% comment %}#}
+{#                        <li class="nav-item"><a class="nav-link" href="#tab_one">One</a></li>#}
+{#                        <li class="nav-item"><a class="nav-link" href="#tab_two">Two</a></li>#}
+{#                        {% endcomment %}{% endblock %}#}
+{#                    </ul>#}
+{#                {% endblock %}#}
+{#                {% block account_bar %}{% include "_account_bar.html" %}{% endblock %}#}
+{#            </div>#}
+{#        {% endblock %}#}
+{#        </div>#}
+{#    </div>#}
+{#</header>#}
+
+    <div id="nav-bar" class="p-4 border-bottom text-center">
+        <a href="{% url 'home' %}" class="h5" style="vertical-align: -moz-middle-with-baseline;">Online Memo</a>
+        {% if user.is_authenticated %}
+            <button type="button" class="btn-olm float-right" data-toggle="modal"
+                    data-target="#afterAhthenticatedModal">
+                <i class="fas fa-user-circle"></i>
+            </button>
+        {% else %}
+            <button type="button" class="btn-olm float-right" data-toggle="modal"
+                    data-target="#beforeAhthenticatedModal">
+                <i class="fas fa-bars"></i>
+            </button>
+        {% endif %}
+    </div>
+
+{% endblock %}
+
+
+{% block footer %}
+    {% include "_footer.html" %}
+{% endblock %}
+
+
+{% block scripts %}
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/marked@0.3.6"></script>
+    <script src="https://unpkg.com/lodash@4.16.0"></script>
+    <script src="{% static "js/site.js" %}"></script>
+    <script src="{% static "js/app.js" %}"></script>
+    <script>
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            document.getElementById('side-menu-checkbox').checked = false;
+            document.getElementById('mark-down-label').hidden = true;
+        } else {
+            document.getElementById('side-menu-checkbox').checked = true;
+        }
+
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus');
+        });
+
+    </script>
+{% endblock %}
+
+{% block extra_body_base %}
+    {% analytics %}
+    {% block extra_body %}{% endblock %}
+{% endblock %}

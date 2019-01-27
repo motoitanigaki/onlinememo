@@ -1,0 +1,34 @@
+{% load i18n %}
+
+{% now "Y" as current_year %}
+
+<div class="row small text-center" style="width: inherit">
+    <div class="col-md-3 col-6">
+        <ul class="p-0">
+            <li class="list-unstyled text-right mb-1"><a href="{% url 'about' %}">リニューアルのお知らせ</a></li>
+            <li class="list-unstyled text-right mb-1"><a href="{% url 'terms-of-use' %}">利用規約</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3 col-6">
+        <ul class="p-0">
+            <li class="list-unstyled mb-1"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScPV6NpJcAx7L11edfajKOu9l_YyrEdewa0n7BUwNqln9tfCw/viewform">お問い合わせ・ご要望</a></li>
+            <li class="list-unstyled mb-1"><a href="{% url 'privacy-policy' %}">プライバシーポリシー</a></li>
+        </ul>
+    </div>
+    <div class="col-md-6" style="width: inherit">
+        <div class="copyright">&copy; {{ current_year }} Online Memo（オンラインメモ）</div>
+    </div>
+</div>
+
+{#{% blocktrans %}#}
+{#<div class="copyright">&copy; {{ current_year }} &lt;your company here&gt;</div>#}
+{#{% endblocktrans %}#}
+{##}
+{#<div class="made-with-pinax">#}
+{#    Made with Pinax#}
+{#    <div class="patches">#}
+{#        {% for app in pinax_apps %}#}
+{#            <img src="http://pinax.github.com/pinax-design/patches/{{ app }}.svg" />#}
+{#        {% endfor %}#}
+{#    </div>#}
+{#</div>#}

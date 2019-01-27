@@ -1,0 +1,56 @@
+{% extends "site_base_main.html" %}
+
+{% load i18n %}
+
+{% block head_title %}リニューアルのお知らせ{% endblock %}
+
+{% block body_class %}terms-of-use{% endblock %}
+
+{% block body_base %}
+    <div class="mt-2 container small">
+        <div class="col-md-1"></div>
+        <div class="col-md-11">
+            <div class="pt-3 pb-3" style="overflow: auto;">
+                <h1 class="h4">【リニューアルしました】Online Memo（オンラインメモ）｜会員登録無くブラウザで使えるwebメモ帳サービス</h1>
+
+                <h2 class="h6">Online Memo（オンラインメモ）とは</h2>
+                <p>
+                    Online Memo（オンラインメモ）は、会員登録することなくメモを保存できるWebサービスです。<br>
+                    さらに、会員登録の上ログインして利用することで、どの端末・ブラウザからアクセスしてもメモを同期できるようになります。
+                </p>
+
+                <h2 class="h6">開発者の思い</h2>
+                <p>
+                    Online Memo（オンラインメモ）は個人（これを書いている僕）で開発しているサービスです。<br>
+                    Web上でメモやノートを残せるサービスは多くありますが、そういったサービスは使い始めるために会員登録が必要です。ですが僕はずっとメモを取りたいタイミングってふとしたタイミングが多く、会員登録やログインをしている暇がなかったりするので、何か違うんじゃないかと思っていました。<br>
+                    2015年頃に無いなら作ろうと思いたち、当時はプログラミングもほとんどわからないような状況でなんとかOnline Memo（オンラインメモ）をスタートしました。
+                </p>
+
+
+                <h2 class="h6">リニューアルに関して</h2>
+                <p>
+                    そんなOnline Memo（オンラインメモ）ですが、年月がたち、下記のような部分を改善・改修するために今回大幅なアップデートをしました。
+                </p>
+                <ul>
+                    <li>一部のブラウザでメモが同期できないといった不具合</li>
+                    <li>デザインの陳腐化</li>
+                    <li>メモの数が増えたときの操作性の悪さ</li>
+                </ul>
+                <p>
+                    リニューアルに伴い、データベース環境も一新しました。以前からOnline Memo（オンラインメモ）をご利用頂いていた方には大変申し訳ありませんが、会員情報やメモをリニューアル後のデータベースに移管しておりません。過去バージョンのOnline Memo（オンラインメモ）はこちらからご利用頂けます。
+                </p>
+
+
+                <h2 class="h6">今後の機能拡張に関して</h2>
+                <p>
+                    一旦大幅リニューアルをしましたが、より本格的に利用できるようなメモサービスに育てていくために、機能強化は都度行っていきます。もしOnline Memo（オンラインメモ）に対してご要望やご意見があれば、 <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScPV6NpJcAx7L11edfajKOu9l_YyrEdewa0n7BUwNqln9tfCw/viewform">こちら</a>からご連絡ください。
+                </p>
+
+
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    </div>
+
+{% endblock %}

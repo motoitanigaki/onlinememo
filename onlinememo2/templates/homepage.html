@@ -1,0 +1,121 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% endblock %}
+
+{% block body_class %}home{% endblock %}
+
+{% block body_base %}
+
+    <main class="mt-0" id="main-app">
+
+        <div class="wrapper">
+            <input type="checkbox" id="mark-down-checkbox" v-model="mdChecked"/>
+            <input type="checkbox" id="side-menu-checkbox" />
+
+            <nav class="border-right bg-white" style="z-index: 1;">
+                <div class="p-4 border-bottom">
+                    <input class="form-control" placeholder="タイトルとタグから検索"
+                           v-model="searchQuery">
+                </div>
+                <div class="p-4">
+                    <select v-model="sortMethod"
+                            v-on:change="sortNotes()"
+                            class="form-control mb-4">
+                        <option disabled value="">並び順</option>
+                        <option value="title_ascend">タイトル（A→Z）</option>
+                        <option value="title_descend">タイトル（Z→A）</option>
+                        <option value="created_at_descend">作成日が新しい順</option>
+                        <option value="created_at_ascend">作成日が古い順</option>
+                        <option value="updated_at_descend">更新日が新しい順</option>
+                        <option value="updated_at_ascend">更新日が古い順</option>
+                    </select>
+                    <li
+                            v-for="(note, index) in filteredNotes"
+                            :key="note.id"
+                            v-on:click="selectNote(note.id)"
+                            class="list-group-item text-truncate border-0 list-note small">
+                        [[ note.title ]]
+                    </li>
+                </div>
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- onlinememo2 -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-7550788523766850"
+                     data-ad-slot="7260433769"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </nav>
+            <section class="border-bottom">
+                <div id="nav-bar" class="p-4 border-bottom">
+                    <label id="side-menu" class="btn btn-olm mr-1" for="side-menu-checkbox"><i
+                            class="fas fa-arrows-alt-h"></i></label>
+                    <button v-on:click="addNote" class="btn-olm mr-1"><i class="fas fa-plus"></i></button>
+                    <label id="mark-down-label" v-bind:class="{ btnolminverted: mdChecked }"
+                           class="btn btn-olm mr-1" for="mark-down-checkbox"><i
+                            class="fas fa-code"></i></label>
+
+                    {% if user.is_authenticated %}
+                        <button type="button" class="btn-olm float-right" data-toggle="modal" data-target="#afterAhthenticatedModal">
+                            <i class="fas fa-user-circle"></i>
+                        </button>
+                    {% else %}
+                        <button type="button" class="btn-olm float-right" data-toggle="modal" data-target="#beforeAhthenticatedModal">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    {% endif %}
+                    <button v-on:click="{% if user.is_authenticated %}deleteNotesAPI();{% endif %}deleteNote();" class="btn-olm float-right" style="margin-right: 12px;"><i class="fas fa-trash"></i></button>
+
+                </div>
+                <div class="editor-area p-4 bg-light">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <input id="input-title" placeholder="タイトル"
+                                   class="form-control border-0"
+                                   v-model="noteTitle"
+                                   v-on:keyup="editNote()">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-grey-lighter px-8 min-h-screen">
+                                <div class="max-w-sm w-full mx-auto">
+                                    <renderless-tags-input v-model="tags">
+                                        <div class="tags-input"
+                                             slot-scope="{ tags, removeTag, inputAttrs, inputEvents }">
+                                        <span class="tags-input-tag" v-for="tag in tags">
+                                          <span>[[ tag ]]</span>
+                                          <button type="button" class="tags-input-remove p-0 bg-white"
+                                                  @click="removeTag(tag)">&times;</button>
+                                        </span>
+                                            <input class="tags-input-text form-control border-0" placeholder="タグを追加"
+                                                   v-on="inputEvents"
+                                                   v-bind="inputAttrs" v-on:blur="editNote">
+                                        </div>
+                                    </renderless-tags-input>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="md-editor" class="mt-3" v-if="mdChecked">
+                        <textarea class="md-input p-3 small"
+                                  :value="noteContent"
+                                  @input="update"
+                                  v-on:keyup="editNote()">
+                        </textarea>
+                        <div class="md-simulator p-3 small" v-html="compiledMarkdown"></div>
+                    </div>
+                    <textarea class="form-control mt-3 p-3 border-0"
+                              v-model="noteContent"
+                              v-else
+                              v-on:keyup="editNote()">
+                    </textarea>
+                </div>
+            </section>
+        </div>
+    </main>
+{% endblock %}
