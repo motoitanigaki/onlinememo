@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinememo2/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,17 +50,26 @@
           <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2055">
-                  <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+                <state relative-caret-position="379">
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings_production.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/wsgi.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="13" column="80" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="80" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="settings_production.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/settings_production.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+                <state relative-caret-position="60">
+                  <caret line="4" selection-start-line="4" selection-end-line="13" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -177,9 +186,9 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/site_base.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
-        <option value="$PROJECT_DIR$/onlinememo2/wsgi.py" />
         <option value="$PROJECT_DIR$/onlinememo2/settings_production.py" />
         <option value="$PROJECT_DIR$/onlinememo2/settings.py" />
+        <option value="$PROJECT_DIR$/onlinememo2/wsgi.py" />
       </list>
     </option>
   </component>
@@ -414,7 +423,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
@@ -795,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3570">
@@ -816,17 +818,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py">
+    <entry file="file://$PROJECT_DIR$/onlinememo2/settings_production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2055">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/settings_production.py">
+    <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="379">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="80" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="80" />
         </state>
       </provider>
     </entry>
