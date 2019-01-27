@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="" />
+    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/onlinememo2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +229,6 @@
         <option value="$PROJECT_DIR$/onlinememo2/serializer.py" />
         <option value="$PROJECT_DIR$/onlinememo2/urls.py" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/_footer.html" />
-        <option value="$PROJECT_DIR$/onlinememo2/settings.py" />
         <option value="$PROJECT_DIR$/account/templates/account/login.html" />
         <option value="$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/pinax/templates/templates/account/logout.html" />
         <option value="$PROJECT_DIR$/account/views.py" />
@@ -260,6 +261,7 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
         <option value="$PROJECT_DIR$/onlinememo2/wsgi.py" />
         <option value="$PROJECT_DIR$/onlinememo2/settings_production.py" />
+        <option value="$PROJECT_DIR$/onlinememo2/settings.py" />
       </list>
     </option>
   </component>
