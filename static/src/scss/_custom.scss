@@ -1,0 +1,300 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, p, li {
+    /*font-family:'helvetica neue', helvetica, arial, sans-serif;*/
+    color: #222;
+    margin: 0 0 1em;
+}
+
+section li {
+    margin: 0 0 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+section {
+    /*padding:30px 30px 30px 30px;*/
+    -moz-transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    margin: 0 0 0 -300px;
+    -moz-transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    overflow-y: auto;
+}
+
+nav ul {
+    width: 250px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: #222;
+    overflow: hidden;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1em;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 12px 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #333;
+}
+
+nav a:hover {
+    background: #111;
+}
+
+label {
+    display: block;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    /*font-weight:700;*/
+    /*background:#1ea1b8;*/
+    /*width:42px;*/
+    /*height:42px;*/
+    line-height: 42px;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.1em;
+    /*position:fixed;*/
+    /*bottom:10px;*/
+    /*left:10px;*/
+    margin: 0;
+    -moz-transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    z-index: 500;
+}
+
+#side-menu-checkbox, #mark-down-checkbox {
+    display: none;
+}
+
+#side-menu-checkbox:checked ~ nav {
+    margin: 0;
+}
+
+#side-menu-checkbox:checked ~ label {
+    left: 300px;
+}
+
+#side-menu-checkbox:checked ~ section {
+    -webkit-transform: translate3d(300px, 0, 0);
+    -moz-transform: translate3d(300px, 0, 0);
+    -o-transform: translate3d(300px, 0, 0);
+    transform: translate3d(300px, 0, 0);
+    width: calc(100% - 300px);
+}
+
+/* ここまでスライドサイドメニュー */
+
+.tags-input {
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: #fff;*/
+    /*border-width: 1px;*/
+    /*border-radius: .25rem;*/
+    /*padding-left: .5rem;*/
+    /*padding-right: 1rem;*/
+    /*padding-top: .5rem;*/
+    /*padding-bottom: .25rem;*/
+}
+
+.tags-input-tag {
+    display: inline-flex;
+    line-height: 1;
+    align-items: center;
+    font-size: .875rem;
+    background-color: white;
+    color: #1c3d5a;
+    border-radius: .25rem;
+    user-select: none;
+    padding: .25rem;
+    margin-right: .5rem;
+    margin-bottom: .25rem;
+}
+
+.tags-input-tag:last-of-type {
+    /*margin-right: 0;*/
+}
+
+.tags-input-remove {
+    color: dodgerblue;
+    font-size: 1.125rem;
+    line-height: 1;
+}
+
+.tags-input-remove:first-child {
+    margin-right: .25rem;
+}
+
+.tags-input-remove:last-child {
+    margin-left: .25rem;
+}
+
+.tags-input-remove:focus {
+    outline: 0;
+}
+
+.tags-input-text {
+    flex: 1;
+    outline: 0;
+    /*padding-top: .25rem;*/
+    /*padding-bottom: .25rem;*/
+    /*margin-left: .5rem;*/
+    margin-bottom: .25rem;
+    min-width: 10rem;
+}
+
+/* ここまでtag input */
+
+html, body, #md-editor {
+    margin: 0;
+    height: 100%;
+    /*font-family: 'Helvetica Neue', Arial, sans-serif;*/
+    color: #333;
+}
+
+textarea, #md-editor div {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+textarea {
+    border: none;
+    /*border-right: 1px solid #ccc;*/
+    resize: none;
+    outline: none;
+    /*background-color: #f6f6f6;*/
+    background-color: white;
+    /*font-size: 14px;*/
+    /*font-family: 'Monaco', courier, monospace;*/
+    border-radius: 0.25rem;
+    height: 61vh;
+    font-size: 80% !important;
+}
+
+.md-simulator {
+    height: 61vh !important;
+    overflow: scroll;
+    font-size: 80%;
+}
+
+/* ここまでmarkdown editor */
+
+footer {
+    background-color: white;
+}
+
+.list-note {
+    cursor: pointer;
+}
+
+.btn-olm {
+    color: dodgerblue;
+    background-color: khaki;
+    border-color: khaki;
+}
+
+.btnolminverted {
+    color: khaki;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+input[type="text"]:focus {
+  outline: 0;
+}
+
+.form-control:focus {
+  border-color:#ccc;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+footer > div {
+    display: ruby;
+}
+
+@media (min-width: 567px) {
+    footer {
+        padding: 20px 200px;
+    }
+}
+
+/* ここからsmp */
+
+@media (max-width: 576px) {
+    .editor-area {
+        padding: 0 !important;
+    }
+
+    #input-title {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* ここからaccountのcss調整 */
+
+#content-body label {
+    color: black !important;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#content-body button {
+    color: dodgerblue;
+    background-color: khaki;
+    border-color: khaki;
+}
+
+#content-body legend {
+    font-size: 1.25rem;
+}

@@ -32,7 +32,6 @@ TIME_ZONE = "Asia/Tokyo"
 LANGUAGE_CODE = "ja"
 
 SITE_ID = int(os.environ.get("SITE_ID", 1))
-SITE_ID = 1
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
@@ -196,5 +195,6 @@ ACCOUNT_USE_AUTH_AUTHENTICATE = True
 
 AUTHENTICATION_BACKENDS = [
     # "account.auth_backends.UsernameAuthenticationBackend",
+    "django.contrib.auth.backends.ModelBackend",
     "account.auth_backends.EmailAuthenticationBackend",
 ]

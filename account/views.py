@@ -122,7 +122,7 @@ class SignupView(PasswordMixin, FormView):
     form_kwargs = {}
     form_password_field = "password"
     redirect_field_name = "next"
-    identifier_field = "username"
+    identifier_field = "email" # usernameから変更
     messages = {
         "email_confirmation_sent": {
             "level": messages.INFO,
@@ -222,20 +222,20 @@ class SignupView(PasswordMixin, FormView):
             self.send_email_confirmation(email_address)
         if settings.ACCOUNT_EMAIL_CONFIRMATION_REQUIRED and not email_address.verified:
             return self.email_confirmation_required_response()
-        else:
-            show_message = [
-                settings.ACCOUNT_EMAIL_CONFIRMATION_EMAIL,
-                self.messages.get("email_confirmation_sent"),
-                not email_address.verified
-            ]
-            if all(show_message):
-                messages.add_message(
-                    self.request,
-                    self.messages["email_confirmation_sent"]["level"],
-                    self.messages["email_confirmation_sent"]["text"].format(**{
-                        "email": form.cleaned_data["email"]
-                    })
-                )
+        else: # TODO メール送信系 これは会員登録時のメール送信 メールにリンク入れて認証 という部分含め完全にサボっている
+            # show_message = [
+            #     settings.ACCOUNT_EMAIL_CONFIRMATION_EMAIL,
+            #     self.messages.get("email_confirmation_sent"),
+            #     not email_address.verified
+            # ]
+            # if all(show_message):
+            #     messages.add_message(
+            #         self.request,
+            #         self.messages["email_confirmation_sent"]["level"],
+            #         self.messages["email_confirmation_sent"]["text"].format(**{
+            #             "email": form.cleaned_data["email"]
+            #         })
+            #     )
             # attach form to self to maintain compatibility with login_user
             # API. this should only be relied on by d-u-a and it is not a stable
             # API for site developers.

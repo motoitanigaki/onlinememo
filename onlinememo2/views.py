@@ -49,8 +49,8 @@ class NoteViewSet(viewsets.ModelViewSet):
 
             note, created = Note.objects.update_or_create(
                 id=posted_note['id'],
+                user=request._user,
                 defaults={
-                    'user': request._user,
                     'title': posted_note['title'],
                     'content': posted_note['content'],
                     'created_at': posted_note['created_at'],
