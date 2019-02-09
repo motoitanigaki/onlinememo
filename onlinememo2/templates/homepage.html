@@ -139,7 +139,8 @@
                                     v-for="(note, index) in filteredNotes"
                                     :key="note.id"
                                     v-on:click="selectNote(note.id)"
-                                    class="list-group-item text-truncate border-0 list-note small">
+                                    class="list-group-item text-truncate border-0 list-note small"
+                                    data-dismiss="modal">
                                 [[ note.title ]]
                             </li>
                         </div>

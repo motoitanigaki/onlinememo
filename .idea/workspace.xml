@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/site_base_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/site_base_main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/src/scss/_custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,14 +70,13 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+                <state relative-caret-position="405">
+                  <caret line="142" column="36" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
                   <folding>
                     <element signature="n#nav#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#1;n#main#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -88,7 +86,7 @@
             <entry file="file://$PROJECT_DIR$/static/src/scss/_custom.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="456">
-                  <caret line="301" column="18" selection-start-line="301" selection-start-column="18" selection-end-line="301" selection-end-column="18" />
+                  <caret line="301" column="21" lean-forward="true" selection-start-line="301" selection-end-line="301" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -96,8 +94,8 @@
           <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/dist/css/app.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="7736" column="1" selection-start-line="7736" selection-start-column="1" selection-end-line="7736" selection-end-column="1" />
+                <state relative-caret-position="471">
+                  <caret line="7730" column="21" selection-start-line="7730" selection-start-column="21" selection-end-line="7730" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -147,7 +145,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="site_base_main.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="site_base_main.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base_main.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
@@ -271,10 +269,10 @@
         <option value="$PROJECT_DIR$/static/dist/js/app.js" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/base.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/_footer.html" />
-        <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
-        <option value="$PROJECT_DIR$/static/dist/css/app.css" />
         <option value="$PROJECT_DIR$/static/src/scss/_custom.scss" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/site_base_main.html" />
+        <option value="$PROJECT_DIR$/static/dist/css/app.css" />
+        <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
       </list>
     </option>
   </component>
@@ -817,17 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#div#1;n#main#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -842,26 +829,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/dist/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="7736" column="1" selection-start-line="7736" selection-start-column="1" selection-end-line="7736" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/scss/_custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="301" column="18" selection-start-line="301" selection-start-column="18" selection-end-line="301" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base_main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
           <folding>
             <element signature="e#1889#1919#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/scss/_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="301" column="21" lean-forward="true" selection-start-line="301" selection-end-line="301" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="7730" column="21" selection-start-line="7730" selection-start-column="21" selection-end-line="7730" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="142" column="36" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#main#0;n#!!top" />
           </folding>
         </state>
       </provider>
