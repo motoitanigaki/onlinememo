@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/static/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,7 +97,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="543">
@@ -147,11 +146,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                  <caret line="9" column="134" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
                 </state>
               </provider>
             </entry>
@@ -260,9 +259,9 @@
         <option value="$PROJECT_DIR$/onlinememo2/views.py" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
         <option value="$PROJECT_DIR$/static/src/scss/_custom.scss" />
-        <option value="$PROJECT_DIR$/onlinememo2/templates/base.html" />
         <option value="$PROJECT_DIR$/static/src/js/app.js" />
         <option value="$PROJECT_DIR$/static/dist/js/app.js" />
+        <option value="$PROJECT_DIR$/onlinememo2/templates/base.html" />
       </list>
     </option>
   </component>
@@ -817,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/settings_production.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -859,6 +851,13 @@
             <element signature="e#1156#1410#0" />
             <element signature="n#!!block;n#sleep#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="134" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
         </state>
       </provider>
     </entry>
