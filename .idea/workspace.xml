@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="" />
+    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/about.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +70,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="217">
-                  <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
+                  <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
                   <folding>
                     <element signature="n#nav#0;n#div#0;n#main#0;n#!!top" />
                   </folding>
@@ -143,11 +145,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="17" selection-start-column="17" selection-end-column="17" />
+                <state relative-caret-position="550">
+                  <caret line="38" column="206" selection-start-line="38" selection-start-column="206" selection-end-line="38" selection-end-column="206" />
                 </state>
               </provider>
             </entry>
@@ -253,7 +255,6 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/onlinememo2/settings_production.py" />
         <option value="$PROJECT_DIR$/onlinememo2/wsgi.py" />
-        <option value="$PROJECT_DIR$/onlinememo2/templates/about.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/privacy_policy.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/terms_of_use.html" />
         <option value="$PROJECT_DIR$/static/src/scss/index.scss" />
@@ -271,6 +272,7 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/site_base_main.html" />
         <option value="$PROJECT_DIR$/static/dist/css/app.css" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/onlinememo2/templates/about.html" />
       </list>
     </option>
   </component>
@@ -318,51 +320,6 @@
               <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
               <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -817,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base_main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -858,10 +808,17 @@
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
-          <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
+          <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#main#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="38" column="206" selection-start-line="38" selection-start-column="206" selection-end-line="38" selection-end-column="206" />
         </state>
       </provider>
     </entry>
