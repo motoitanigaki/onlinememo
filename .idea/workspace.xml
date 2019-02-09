@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/src/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/scss/_custom.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/privacy_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/privacy_policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/terms_of_use.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/terms_of_use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinememo2/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinememo2/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/site_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/site_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onlinememo2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/scss/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/src/scss/_custom.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,26 +21,53 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.11796537">
+    <splitter split-orientation="horizontal" split-proportion="0.41604754">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/dist/css/custom.css">
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="423">
-                  <caret line="288" column="6" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="6" />
+                <state relative-caret-position="105">
+                  <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
+                <state relative-caret-position="180">
+                  <caret line="15" column="11" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="serializer.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/serializer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
                   <caret line="23" selection-start-line="23" selection-end-line="23" />
-                  <folding>
-                    <element signature="e#0#21#0" expanded="true" />
-                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="viewsets.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/rest_framework/viewsets.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="468">
+                  <caret line="221" column="32" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mixins.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/rest_framework/mixins.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1290">
+                  <caret line="90" selection-start-line="90" selection-end-line="93" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -52,84 +76,49 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
+          <file leaf-file-name="test_views.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/account/tests/test_views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3570">
-                  <caret line="330" selection-start-line="330" selection-end-line="331" />
+                <state>
                   <folding>
-                    <element signature="e#39#1122#0" />
-                    <element signature="e#1156#1410#0" />
-                    <element signature="n#!!block;n#sleep#0" />
-                    <element signature="e#1672#1885#0" />
-                    <element signature="e#4985#6006#0" />
+                    <element signature="e#0#32#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/src/js/app.js">
+          <file leaf-file-name="test_commands.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/account/tests/test_commands.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py">
+          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="344">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="221">
+                  <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/account/views.py">
+          <file leaf-file-name="_custom.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/src/scss/_custom.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="225" selection-start-line="225" selection-end-line="225" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="152">
+                  <caret line="275" column="5" lean-forward="true" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/account/models.py">
+          <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/wsgi.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="355" selection-start-line="355" selection-end-line="355" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="related_descriptors.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="174">
-                  <caret line="177" selection-start-line="177" selection-end-line="177" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="hooks.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/account/hooks.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="159">
-                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="shortcuts.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/django/contrib/sites/shortcuts.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="165">
+                  <caret line="13" column="80" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="80" />
                 </state>
               </provider>
             </entry>
@@ -143,9 +132,34 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="site.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/dist/js/site.js">
+          <file leaf-file-name="_index.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/src/scss/apps/_index.scss">
               <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="_body.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/src/scss/_body.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-208" />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="site_base.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="hooks.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/account/hooks.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="159">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -162,11 +176,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>7</find>
-      <find>textarea</find>
-      <find>simul</find>
-      <find>mdinput</find>
-      <find>class=&quot;col-md-4 pl-0&quot;</find>
       <find>@</find>
       <find>side-menu</find>
       <find>getNotes</find>
@@ -183,15 +192,20 @@
       <find>logout</find>
       <find>selectedIndex</find>
       <find>auth</find>
-      <find>delete</find>
       <find>site_</find>
       <find>signup</find>
       <find>email</find>
       <find>AUTHENTICATION_BACKENDS</find>
       <find>ACCOUNT_EMAIL_CONFIRMATION_EMAIL</find>
-      <find>messages</find>
       <find>send_email</find>
+      <find>messages</find>
       <find>EMAIL_HOST</find>
+      <find>delete</find>
+      <find>handler</find>
+      <find>deleted</find>
+      <find>console.log</find>
+      <find>mr-1</find>
+      <find>.editor-area</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,8 +219,6 @@
         <option value="$PROJECT_DIR$/onlinememo2/admin.py" />
         <option value="$PROJECT_DIR$/onlinememo2/view.py" />
         <option value="$PROJECT_DIR$/onlinememo2/urls_api.py" />
-        <option value="$PROJECT_DIR$/onlinememo2/models.py" />
-        <option value="$PROJECT_DIR$/onlinememo2/serializer.py" />
         <option value="$PROJECT_DIR$/onlinememo2/urls.py" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/_footer.html" />
         <option value="$PROJECT_DIR$/account/templates/account/login.html" />
@@ -231,19 +243,22 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/account/delete.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/account/login.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/base.html" />
-        <option value="$PROJECT_DIR$/static/dist/js/app.js" />
-        <option value="$PROJECT_DIR$/onlinememo2/templates/site_base.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
         <option value="$PROJECT_DIR$/onlinememo2/settings_production.py" />
         <option value="$PROJECT_DIR$/onlinememo2/wsgi.py" />
-        <option value="$PROJECT_DIR$/account/views.py" />
-        <option value="$PROJECT_DIR$/onlinememo2/views.py" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/about.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/privacy_policy.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/terms_of_use.html" />
         <option value="$PROJECT_DIR$/static/src/scss/index.scss" />
         <option value="$PROJECT_DIR$/onlinememo2/settings.py" />
+        <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/onlinememo2/templates/site_base.html" />
+        <option value="$PROJECT_DIR$/onlinememo2/models.py" />
+        <option value="$PROJECT_DIR$/onlinememo2/serializer.py" />
+        <option value="$PROJECT_DIR$/onlinememo2/views.py" />
+        <option value="$PROJECT_DIR$/static/dist/js/app.js" />
+        <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/static/src/scss/_custom.scss" />
       </list>
     </option>
   </component>
@@ -261,7 +276,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="12" />
     <option name="y" value="28" />
     <option name="width" value="1428" />
@@ -284,25 +299,44 @@
             <path>
               <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
               <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,17 +361,17 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/src/scss" />
-      <recent name="$PROJECT_DIR$/onlinememo2/templates" />
-      <recent name="$PROJECT_DIR$/account/templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/dist/js" />
       <recent name="$PROJECT_DIR$/static/src/js" />
       <recent name="$PROJECT_DIR$/static/src/scss" />
       <recent name="$PROJECT_DIR$/static/src/scss/apps" />
       <recent name="$PROJECT_DIR$/onlinememo2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/src/scss" />
       <recent name="$PROJECT_DIR$/onlinememo2/templates" />
+      <recent name="$PROJECT_DIR$/account/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -400,52 +434,52 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="28" width="1428" height="825" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1005" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32882273" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.16758242" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24458875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2651099" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2819383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29395604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.03524229" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21917808" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.042203147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21917808" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32882273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.17994505" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32882273" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,73 +504,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="77" />
+      <option name="time" value="81" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/password_reset_sent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/email_confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/email_confirmation_sent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/email_confirmed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/password_change.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/password_reset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/logout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/account/delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -558,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="61" column="61" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements-account.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -576,13 +540,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/django/utils/functional.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -682,46 +639,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/scss/_body.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/src/scss/apps/_app.scss" />
     <entry file="file://$PROJECT_DIR$/static/src/scss/_pinax.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/scss/_custom.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/dist/js/site.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="330" selection-start-line="330" selection-end-line="331" />
-          <folding>
-            <element signature="e#39#1122#0" />
-            <element signature="e#1156#1410#0" />
-            <element signature="n#!!block;n#sleep#0" />
-            <element signature="e#1672#1885#0" />
-            <element signature="e#4985#6006#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -739,18 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/dist/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="4320">
           <caret line="288" column="6" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,39 +683,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="2610">
           <caret line="177" selection-start-line="177" selection-end-line="177" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/account/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="5280">
           <caret line="355" selection-start-line="355" selection-end-line="355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="224" column="63" selection-start-line="224" selection-start-column="63" selection-end-line="224" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/tests/test_commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/templates/site_base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="90" selection-start-line="90" selection-end-line="93" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="221" column="32" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/account/hooks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py">
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="221">
+          <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/views.py">
+    <entry file="file://$PROJECT_DIR$/static/src/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        <state relative-caret-position="195">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/scss/apps/_index.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/scss/_body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="7712" column="14" selection-start-line="7712" selection-start-column="2" selection-end-line="7712" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/scss/_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="275" column="5" lean-forward="true" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="80" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="80" />
         </state>
       </provider>
     </entry>

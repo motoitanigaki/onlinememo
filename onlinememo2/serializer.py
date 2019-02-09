@@ -20,7 +20,7 @@ class NoteSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Note
-        fields = ('id', 'user', 'title', 'content', 'created_at', 'updated_at', 'tags')
+        fields = ('id', 'user', 'title', 'content', 'created_at', 'updated_at', 'deleted', 'tags')
 
     def get_tags(self, obj):
         try:

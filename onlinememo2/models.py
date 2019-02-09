@@ -13,6 +13,7 @@ class Note(models.Model):
     created_at = models.DateTimeField()
     updated_at = models.DateTimeField()
     is_markdown = models.BooleanField(default=False)
+    deleted = models.BooleanField(default=False)
 
     def __str__(self):
         return str(self.title)

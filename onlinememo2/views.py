@@ -11,12 +11,6 @@ class NoteViewSet(viewsets.ModelViewSet):
     queryset = Note.objects.all()
     serializer_class = NoteSerializer
 
-    # @login_required
-    # def list(self, request):
-        # if not request.user.is_authenticated:
-        #     print('hoge')
-        # pass
-
     def get_queryset(self):
         if self.request.user.is_authenticated:
             notes = Note.objects.filter(user=self.request.user)
@@ -29,7 +23,8 @@ class NoteViewSet(viewsets.ModelViewSet):
             # return Response({'errors': ['You need to login']}, status=status.HTTP_400_BAD_REQUEST)
             None
 
-    # create関数内で使うget_serializerをオーバーライド https://stackoverflow.com/questions/43525860/django-rest-framework-cannot-deal-with-multple-objects-in-model-viewset/43526936
+    # create関数内で使うget_serializerをオーバーライド
+    # https://stackoverflow.com/questions/43525860/django-rest-framework-cannot-deal-with-multple-objects-in-model-viewset/43526936
     def get_serializer(self, *args, **kwargs):
         if "data" in kwargs:
             data = kwargs["data"]
@@ -40,7 +35,7 @@ class NoteViewSet(viewsets.ModelViewSet):
 
         return super(NoteViewSet, self).get_serializer(*args, **kwargs)
 
-    # post時に呼ばれる
+    # post
     def create(self, request):
 
         for posted_note in request.data:
@@ -70,6 +65,12 @@ class NoteViewSet(viewsets.ModelViewSet):
         self.perform_create(serializer)
         headers = self.get_success_headers(serializer.data)
         return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
+
+    def destroy(self, request, *args, **kwargs):
+        instance = self.get_object()
+        instance.deleted = True
+        instance.save()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 class TagViewSet(viewsets.ModelViewSet):
     queryset = Tag.objects.all()
