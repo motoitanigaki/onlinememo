@@ -73,11 +73,7 @@ const vm = new Vue({
         tags: []
     },
     methods: {
-        handler: function handler(event) {
-            console.log('ハンドラー');
-        },
         getNotesAPI: function () {
-            console.log('getNotesAPI');
             var _this = this;
             _this.loading = true;
             $.ajax({
@@ -85,14 +81,10 @@ const vm = new Vue({
                 type: 'GET',
                 dataType: 'JSON',
                 timeout: 30000
-                // data: _this.request.data
             })
                 .done(function (response) {
-                    //結果をresultに格納、各種状態管理用の変数を完了ステータスに変更
                     _this.error = 0;
                     _this.loading = false;
-                    // _this.notes = response;
-
                     response.forIn(function (key, value, index) {
                         const gottenNoteId = value.id;
                         let exists = false;
@@ -101,18 +93,17 @@ const vm = new Vue({
                             if (gottenNoteId === originalNoteId) {
                                 exists = true;
                             }
+                            if (value1.deleted === true) {
+                                _this.deleteNote(key1);
+                            }
                         });
                         if (exists === false) {
                             _this.notes.push(value);
                         }
                     });
-
-                    console.log(response);
                     _this.saveNotes();
                 })
                 .fail(function (error) {
-                    //通信エラー時の再試行。
-                    //再試行回数が指定数に達した場合は状態管理用の変数を更新しAjaxを停止
                     if (_this.error <= 5) {
                         _this.error++;
                         _this.getNotesAPI();
@@ -123,7 +114,6 @@ const vm = new Vue({
                 });
         },
         postNotesAPI: function () {
-            console.log('postNotesAPI');
             var _this = this;
             _this.loading = true;
             $.ajax({
@@ -133,18 +123,14 @@ const vm = new Vue({
                 dataType: 'JSON',
                 timeout: 30000,
                 data: JSON.stringify(this.notes),
-                // csrfmiddlewaretoken: "{{ csrf_token }}",
             })
                 .done(function (response) {
-                    //結果をresultに格納、各種状態管理用の変数を完了ステータスに変更
                     _this.error = 0;
                     _this.loading = false;
                     _this.result = response;
                     console.log(response);
                 })
                 .fail(function (error) {
-                    //通信エラー時の再試行。
-                    //再試行回数が指定数に達した場合は状態管理用の変数を更新しAjaxを停止
                     if (_this.error <= 5) {
                         _this.error++;
                         // _this.getNotesAPI();
@@ -156,7 +142,6 @@ const vm = new Vue({
             sleep(100);
         },
         deleteNotesAPI: function () {
-            console.log('deleteNotesAPI');
             var _this = this;
             _this.loading = true;
             $.ajax({
@@ -164,20 +149,14 @@ const vm = new Vue({
                 type: 'DELETE',
                 dataType: 'JSON',
                 timeout: 30000
-                // data: _this.request.data
             })
                 .done(function (response) {
-                    //結果をresultに格納、各種状態管理用の変数を完了ステータスに変更
                     _this.error = 0;
                     _this.loading = false;
-                    console.log(response);
                 })
                 .fail(function (error) {
-                    //通信エラー時の再試行。
-                    //再試行回数が指定数に達した場合は状態管理用の変数を更新しAjaxを停止
                     if (_this.error <= 5) {
                         _this.error++;
-                        // _this.getNotesAPI();
                     } else {
                         _this.error = true;
                         _this.loading = false;
@@ -234,13 +213,17 @@ const vm = new Vue({
         saveNotes: function () {
             localStorage.setItem('notes', JSON.stringify(this.notes));
         },
-        deleteNote: function () {
-            console.log('deleteNote');
-            if (this.selectedIndex !== '') {
-                this.notes.splice(this.selectedIndex, 1);
+        deleteNote: function (index) {
+            if (index === undefined) {
+                if (this.selectedIndex !== '') {
+                    this.notes.splice(this.selectedIndex, 1);
+                    this.saveNotes();
+                    this.selectedIndex = '';
+                    this.addNote();
+                }
+            } else {
+                this.notes.splice(index, 1);
                 this.saveNotes();
-                this.selectedIndex = '';
-                this.addNote();
             }
         },
         loadNotes: function () {
@@ -304,14 +287,16 @@ const vm = new Vue({
         filteredNotes() {
             return this.notes.filter(note => {
                 var hit = note.title.toLowerCase().indexOf(this.searchQuery.toLowerCase()) > -1;
-                const query = this.searchQuery
+                const query = this.searchQuery;
                 note.tags.forIn(function (key, value, index) {
                     if (value.toLocaleLowerCase().indexOf(query.toLocaleLowerCase()) > -1) {
                         hit = true;
                     }
                 });
+                if (note.deleted === true) {
+                    hit = false;
+                }
                 return hit;
-                // return note.title.toLowerCase().indexOf(this.searchQuery.toLowerCase()) > -1;
             });
         },
         compiledMarkdown: function () {
