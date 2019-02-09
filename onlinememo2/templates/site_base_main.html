@@ -44,7 +44,7 @@
 {#</header>#}
 
     <div id="nav-bar" class="p-4 border-bottom text-center">
-        <a href="{% url 'home' %}" class="h5" style="vertical-align: -moz-middle-with-baseline;">Online Memo</a>
+        <a href="{% url 'home' %}" class="h5 mb-0 nav-title" style="vertical-align: center">Online Memo</a>
         {% if user.is_authenticated %}
             <button type="button" class="btn-olm float-right" data-toggle="modal"
                     data-target="#afterAhthenticatedModal">

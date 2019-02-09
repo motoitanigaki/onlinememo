@@ -298,3 +298,13 @@ footer > div {
 #content-body legend {
     font-size: 1.25rem;
 }
+
+/* homepage以外のタイトル */
+
+.nav-title {
+    position: absolute;
+    top: 32px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
