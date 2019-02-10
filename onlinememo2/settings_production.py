@@ -1,7 +1,7 @@
 from .settings import *
 from django.contrib.staticfiles.storage import ManifestStaticFilesStorage
 
-DEBUG = True
+DEBUG = False
 
 DATABASES = {
     'default': {

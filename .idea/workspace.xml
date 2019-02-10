@@ -134,7 +134,7 @@
           <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
+                <state relative-caret-position="334">
                   <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="123" selection-end-column="13" />
                   <folding>
                     <element signature="n#style#0;n#ins#0;n#html#0;n#!!top" expanded="true" />
@@ -460,7 +460,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296582" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32882273" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.07005495" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.07005495" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2819383" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34477827" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -885,7 +885,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="334">
           <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="123" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#ins#0;n#html#0;n#!!top" expanded="true" />
