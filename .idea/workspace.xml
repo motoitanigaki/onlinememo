@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onlinememo2/templates/site_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/site_base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +16,13 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.19382504">
+    <splitter split-orientation="horizontal" split-proportion="0.1">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
+                <state relative-caret-position="105">
                   <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
                   <folding>
                     <element signature="e#0#21#0" expanded="true" />
@@ -109,20 +110,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5004">
-                  <caret line="373" column="6" selection-start-line="373" selection-start-column="6" selection-end-line="373" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="site_base.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="site_base.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+                <state>
+                  <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -135,6 +127,15 @@
                   <folding>
                     <element signature="n#style#0;n#ins#0;n#div#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="269">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
                 </state>
               </provider>
             </entry>
@@ -183,7 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>60</find>
       <find>account/</find>
       <find>logout</find>
       <find>selectedIndex</find>
@@ -213,6 +213,7 @@
       <find>Manif</find>
       <find>context_processors</find>
       <find>.js</find>
+      <find>script</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -258,7 +259,6 @@
         <option value="$PROJECT_DIR$/onlinememo2/views.py" />
         <option value="$PROJECT_DIR$/static/src/js/app.js" />
         <option value="$PROJECT_DIR$/static/dist/js/app.js" />
-        <option value="$PROJECT_DIR$/onlinememo2/templates/base.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/site_base_main.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/about.html" />
         <option value="$PROJECT_DIR$/static/src/scss/_custom.scss" />
@@ -267,6 +267,7 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/_footer.html" />
         <option value="$PROJECT_DIR$/onlinememo2/settings_production.py" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/site_base.html" />
+        <option value="$PROJECT_DIR$/onlinememo2/templates/base.html" />
       </list>
     </option>
   </component>
@@ -449,9 +450,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296582" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32882273" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4107143" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3489011" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2819383" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03218884" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
@@ -745,7 +746,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="105">
           <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -773,13 +774,6 @@
             <element signature="e#12208#12438#0" />
             <element signature="n#!!block;n#indexWhere#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="78" column="25" lean-forward="true" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -877,8 +871,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
