@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/site_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/site_base.html" afterDir="false" />
-    </list>
+    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +72,7 @@
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="305">
-                  <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+                  <caret line="167" column="13" lean-forward="true" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
                   <folding>
                     <element signature="n#nav#0;n#div#0;n#main#0;n#!!top" />
                     <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
@@ -825,7 +821,7 @@
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+          <caret line="167" column="13" lean-forward="true" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#main#0;n#!!top" />
             <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
