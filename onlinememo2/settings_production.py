@@ -1,10 +1,7 @@
 from .settings import *
 from django.contrib.staticfiles.storage import ManifestStaticFilesStorage
 
-DEBUG = False
-
-class DjsManifestStaticFilesStorage(ManifestStaticFilesStorage):
-    manifest_strict = False
+DEBUG = True
 
 DATABASES = {
     'default': {
