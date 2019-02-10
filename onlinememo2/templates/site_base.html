@@ -8,8 +8,6 @@
 {% block styles %}
     <link href="{% static "css/app.css" %}" rel="stylesheet" />
     <link href="{% static "css/custom.css" %}" rel="stylesheet" />
-
-    <link href="{% static "temp/app.css" %}" rel="stylesheet" />
 {% endblock %}
 
 
@@ -34,10 +32,6 @@
     <script src="https://unpkg.com/marked@0.3.6"></script>
     <script src="https://unpkg.com/lodash@4.16.0"></script>
 
-    <script src="{% static "temp/vue.js" %}"></script>
-    <script src="{% static "temp/marked@0.3.6" %}"></script>
-    <script src="{% static "temp/lodash@4.16.0" %}"></script>
-
     <script src="{% static "js/site.js" %}"></script>
     <script src="{% static "js/app.js" %}"></script>
     <script>
@@ -52,6 +46,16 @@
             $('#myInput').trigger('focus');
         });
 
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59919249-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-59919249-3');
     </script>
 {% endblock %}
 
