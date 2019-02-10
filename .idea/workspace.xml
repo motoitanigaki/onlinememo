@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/site_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/site_base.html" afterDir="false" />
-    </list>
+    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,11 +107,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="site_base.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="site_base.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+                <state relative-caret-position="131">
+                  <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -131,11 +128,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="269">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                <state relative-caret-position="254">
+                  <caret line="23" column="95" selection-start-line="23" selection-start-column="95" selection-end-line="23" selection-end-column="95" />
                 </state>
               </provider>
             </entry>
@@ -266,8 +263,8 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/_footer.html" />
         <option value="$PROJECT_DIR$/onlinememo2/settings_production.py" />
-        <option value="$PROJECT_DIR$/onlinememo2/templates/site_base.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/base.html" />
+        <option value="$PROJECT_DIR$/onlinememo2/templates/site_base.html" />
       </list>
     </option>
   </component>
@@ -332,6 +329,13 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
@@ -443,16 +447,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296582" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32882273" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3489011" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3489011" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2819383" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03218884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34477827" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
@@ -869,17 +872,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="254">
+          <caret line="23" column="95" selection-start-line="23" selection-start-column="95" selection-end-line="23" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="131">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
