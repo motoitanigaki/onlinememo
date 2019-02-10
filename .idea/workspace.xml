@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="" />
+    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/onlinememo2/settings_production.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/settings_production.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,14 +70,13 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="305">
-                  <caret line="167" column="13" lean-forward="true" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+                <state relative-caret-position="185">
+                  <caret line="151" column="18" lean-forward="true" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
                   <folding>
                     <element signature="n#nav#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -150,8 +151,20 @@
           <file leaf-file-name="_footer.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/_footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="109">
-                  <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+                <state relative-caret-position="84">
+                  <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+                  <folding>
+                    <element signature="n#style#0;n#ins#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="settings_production.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/settings_production.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -234,7 +247,6 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/account/delete.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/account/login.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/onlinememo2/settings_production.py" />
         <option value="$PROJECT_DIR$/onlinememo2/wsgi.py" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/privacy_policy.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/terms_of_use.html" />
@@ -251,9 +263,10 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/about.html" />
         <option value="$PROJECT_DIR$/static/src/scss/_custom.scss" />
         <option value="$PROJECT_DIR$/static/dist/css/app.css" />
-        <option value="$PROJECT_DIR$/onlinememo2/templates/_footer.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/site_base.html" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/onlinememo2/templates/_footer.html" />
+        <option value="$PROJECT_DIR$/onlinememo2/settings_production.py" />
       </list>
     </option>
   </component>
@@ -719,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/settings_production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -794,22 +800,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/dist/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="7737" column="1" selection-start-line="7737" selection-start-column="1" selection-end-line="7737" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account/templates/site_base.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/_footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/site_base.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -820,12 +812,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="167" column="13" lean-forward="true" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+        <state relative-caret-position="185">
+          <caret line="151" column="18" lean-forward="true" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="7737" column="1" selection-start-line="7737" selection-start-column="1" selection-end-line="7737" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#ins#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/settings_production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
