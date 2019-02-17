@@ -222,7 +222,7 @@ class SignupView(PasswordMixin, FormView):
             self.send_email_confirmation(email_address)
         if settings.ACCOUNT_EMAIL_CONFIRMATION_REQUIRED and not email_address.verified:
             return self.email_confirmation_required_response()
-        else: # TODO メール送信系 これは会員登録時のメール送信 メールにリンク入れて認証 という部分含め完全にサボっている
+        else: # TODO メール送信
             # show_message = [
             #     settings.ACCOUNT_EMAIL_CONFIRMATION_EMAIL,
             #     self.messages.get("email_confirmation_sent"),

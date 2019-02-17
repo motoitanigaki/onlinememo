@@ -19,7 +19,7 @@ class NoteViewSet(viewsets.ModelViewSet):
                 note.updated_at = note.updated_at.strftime('%Y/%m/%d %H:%M')
             return notes
         else:
-            # TODO loginしていなかったらエラーレスポンスを投げたかったが、このあとループ処理がありリストじゃないとエラーになる
+            # TODO loginしていない際のエラーレスポンス送信方法調査
             # return Response({'errors': ['You need to login']}, status=status.HTTP_400_BAD_REQUEST)
             None
 
@@ -59,7 +59,7 @@ class NoteViewSet(viewsets.ModelViewSet):
                 Tag.objects.create(user=request._user,note=note,name=posted_tag)
 
         # TODO post時にlocal storage内の全ノートを送り、update_or_createするが、下記createメソッドデフォルトの
-        # 挙動とロジック的にバッティングするので400ステータスが返ってしまう 良い方法わからず
+        # 挙動とロジック的にバッティングするので400ステータスが返ってしまう 要調査
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         self.perform_create(serializer)
