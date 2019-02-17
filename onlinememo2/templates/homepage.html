@@ -42,13 +42,16 @@
             </nav>
             <section class="border-bottom">
                 <div id="nav-bar" class="p-4 border-bottom">
-                    <label id="side-menu" class="btn btn-olm mr-2 d-none d-sm-inline-block" for="side-menu-checkbox"><i
+                    <label id="side-menu" class="btn btn-olm mr-2 d-none d-sm-inline-block" for="side-menu-checkbox"
+                           data-toggle="tooltip-sidemenu" data-placement="bottom" title="サイドメニュー"><i
                             class="fas fa-arrows-alt-h"></i></label>
                     <button class="btn-olm mr-2 d-sm-none" data-toggle="modal" data-target="#notesModal"><i
                             class="fas fa-bars"></i></button>
-                    <button v-on:click="addNote" class="btn-olm mr-2"><i class="fas fa-plus"></i></button>
+                    <button v-on:click="addNote" class="btn-olm mr-2" data-toggle="tooltip-add" data-placement="bottom"
+                            title="新規追加"><i class="fas fa-plus"></i></button>
                     <label id="mark-down-label" v-bind:class="{ btnolminverted: mdChecked }"
-                           class="btn btn-olm mr-1" for="mark-down-checkbox"><i
+                           class="btn btn-olm mr-1" for="mark-down-checkbox" data-toggle="tooltip-preview"
+                           data-placement="bottom" title="マークダウンプレビュー"><i
                             class="fas fa-code"></i></label>
 
                     {% if user.is_authenticated %}
@@ -63,7 +66,8 @@
                         </button>
                     {% endif %}
                     <button v-on:click="{% if user.is_authenticated %}deleteNotesAPI();{% endif %}deleteNote();"
-                            class="btn-olm float-right" style="margin-right: 12px;"><i class="fas fa-trash"></i>
+                            class="btn-olm float-right" style="margin-right: 12px;" data-toggle="tooltip-delete"
+                            data-placement="bottom" title="削除"><i class="fas fa-trash"></i>
                     </button>
 
                 </div>
