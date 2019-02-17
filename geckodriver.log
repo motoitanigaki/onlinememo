@@ -1,0 +1,187 @@
+1550397046486	geckodriver	INFO	geckodriver 0.19.1
+1550397046627	geckodriver	INFO	Listening on 127.0.0.1:49792
+1550397048184	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.2IpQhZ56RBiI"
+1550397049731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550397049731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550397049997	Marionette	TRACE	Received observer notification profile-after-change
+1550397050204	Marionette	TRACE	Received observer notification command-line-startup
+1550397050204	Marionette	TRACE	Received observer notification nsPref:changed
+1550397050204	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1550397050528	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1550397052244	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1550397052244	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1550397052590	Marionette	TRACE	All scripts recorded.
+1550397052590	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1550397052591	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1550397052592	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1550397052593	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1550397052593	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1550397052665	Marionette	INFO	Listening on port 49803
+1550397052665	Marionette	DEBUG	Remote service is active
+1550397052732	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49895
+1550397052735	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1550397052736	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+1550397077726	geckodriver	INFO	geckodriver 0.19.1
+1550397077839	geckodriver	INFO	Listening on 127.0.0.1:49897
+1550397078863	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.NPW3fa8YH5qX"
+1550397079602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550397079602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550397079837	Marionette	TRACE	Received observer notification profile-after-change
+1550397079981	Marionette	TRACE	Received observer notification command-line-startup
+1550397079982	Marionette	TRACE	Received observer notification nsPref:changed
+1550397079982	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1550397080192	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1550397082237	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1550397082238	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1550397082518	Marionette	TRACE	All scripts recorded.
+1550397082519	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1550397082519	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1550397082520	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1550397082521	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1550397082521	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1550397082580	Marionette	INFO	Listening on port 49908
+1550397082581	Marionette	DEBUG	Remote service is active
+1550397082623	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49986
+1550397082633	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1550397082634	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1550397163641	geckodriver	INFO	geckodriver 0.19.1
+1550397163791	geckodriver	INFO	Listening on 127.0.0.1:50001
+1550397164771	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.LQPPc5bsgCnU"
+1550397166237	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550397166240	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550397166463	Marionette	TRACE	Received observer notification profile-after-change
+1550397166645	Marionette	TRACE	Received observer notification command-line-startup
+1550397166645	Marionette	TRACE	Received observer notification nsPref:changed
+1550397166646	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1550397166917	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1550397168208	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1550397168208	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1550397168494	Marionette	TRACE	All scripts recorded.
+1550397168494	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1550397168495	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1550397168496	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1550397168497	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1550397168497	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1550397168550	Marionette	INFO	Listening on port 50012
+1550397168550	Marionette	DEBUG	Remote service is active
+1550397168594	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50091
+1550397168598	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1550397168598	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1550397377584	geckodriver	INFO	geckodriver 0.19.1
+1550397377716	geckodriver	INFO	Listening on 127.0.0.1:50124
+1550397378714	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.86OS5iQlowFM"
+1550397380056	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550397380056	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550397380252	Marionette	TRACE	Received observer notification profile-after-change
+1550397380417	Marionette	TRACE	Received observer notification command-line-startup
+1550397380418	Marionette	TRACE	Received observer notification nsPref:changed
+1550397380418	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1550397380691	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1550397382253	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1550397382253	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1550397382532	Marionette	TRACE	All scripts recorded.
+1550397382533	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1550397382534	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1550397382536	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1550397382538	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1550397382539	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1550397382600	Marionette	INFO	Listening on port 50135
+1550397382601	Marionette	DEBUG	Remote service is active
+1550397382678	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50216
+1550397382682	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1550397382682	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1550397551831	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.9OBn5ZErGFv2"
+1550397553885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550397553885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550397556433	Marionette	INFO	Listening on port 50319
+1550397556540	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550397561860	Marionette	INFO	Stopped listening on port 50319
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+1550398057477	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.773C5P1605tT"
+1550398059110	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398059111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398061579	Marionette	INFO	Listening on port 50420
+1550398061642	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398063687	Marionette	INFO	Stopped listening on port 50420
+1550398077967	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.Kj8X6hViSBwo"
+1550398079291	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398079292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398081539	Marionette	INFO	Listening on port 50505
+1550398081584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398087195	Marionette	INFO	Stopped listening on port 50505
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+1550398118886	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.7Brm4QJd5DCl"
+1550398120276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398120276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398122520	Marionette	INFO	Listening on port 50588
+1550398122587	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398125796	Marionette	INFO	Stopped listening on port 50588
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+1550398269534	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.DbIzgP7ZuVY3"
+1550398271026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398271027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398273544	Marionette	INFO	Listening on port 50671
+1550398273592	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398280511	Marionette	INFO	Stopped listening on port 50671
+1550398334415	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.SkTcz0SNFC1m"
+1550398335747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398335747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398338077	Marionette	INFO	Listening on port 50761
+1550398338126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398342888	Marionette	INFO	Stopped listening on port 50761
+1550398357414	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.eW6R34EOIu5y"
+1550398358806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398358806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398361152	Marionette	INFO	Listening on port 50841
+1550398361216	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398366099	Marionette	INFO	Stopped listening on port 50841
+1550398396940	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.rRr7O1s0dr3r"
+1550398398481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398398482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398401282	Marionette	INFO	Listening on port 50926
+1550398401627	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398409877	Marionette	INFO	Stopped listening on port 50926
+1550398502392	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.jUYffw1NtTW6"
+1550398504016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398504017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398506499	Marionette	INFO	Listening on port 51030
+1550398506518	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398514807	Marionette	INFO	Stopped listening on port 51030
+1550398539494	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.Ma5dY9EjeOXT"
+1550398540879	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398540879	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398543214	Marionette	INFO	Listening on port 51116
+1550398543293	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398547420	Marionette	INFO	Stopped listening on port 51116
+1550398580322	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/25/rtj7s6h94z17fv5n2t78k0vc0000gn/T/rust_mozprofile.vsp2gPgGobT5"
+1550398581923	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550398581923	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550398584065	Marionette	INFO	Listening on port 51200
+1550398584103	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550398589756	Marionette	INFO	Stopped listening on port 51200

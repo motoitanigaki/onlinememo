@@ -5,3 +5,5 @@ site_media/
 static/dist/
 onlinememo2.git/
 .DS_Store
+onlinememo2/settings.py
+onlinememo2/settings_production.py
