@@ -2,263 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/onlinememo2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/auth_backends.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/context_processors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/decorators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/hooks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/languages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/ar/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/ar/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/de/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/de/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/es/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/es/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/fa_IR/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/fa_IR/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/fr/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/fr/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/it/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/it/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/ja/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/ja/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/nl/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/nl/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/pl/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/pl/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/pt_BR/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/pt_BR/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/ru/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/sk_SK/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/sk_SK/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/tr/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/tr/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/zh_CN/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/zh_CN/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/zh_TW/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/locale/zh_TW/LC_MESSAGES/django.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/management/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/management/commands/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/management/commands/expunge_deleted.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/management/commands/user_password_expiry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/management/commands/user_password_history.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/managers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/middleware.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0002_fix_str.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0003_passwordexpiry_passwordhistory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0004_auto_20170416_1821.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/mixins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/signals.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/_account_bar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/_messages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/_nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pagination/_pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/announcements/announcement_confirm_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/announcements/announcement_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/announcements/announcement_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/announcements/announcement_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/announcements/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/blog/blog_base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/blog/blog_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/blog/blog_post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/blog/dateline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/blog/dateline_stale.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/calendars/calendar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/cohorts/_members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/cohorts/_status.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/cohorts/cohort_create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/cohorts/cohort_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/cohorts/cohort_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/_breadcrumbs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/_member_table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/_usage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/document_confirm_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/document_create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/document_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/folder_confirm_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/folder_create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/folder_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/folder_share.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/documents/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/invitations/_invite_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/invitations/_invited.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/invitations/_invites_remaining.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/likes/_like.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/likes/_widget.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/likes/_widget_brief.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/messages/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/messages/inbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/messages/message_create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/messages/thread_confirm_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/messages/thread_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/notifications/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/notifications/email_body.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/notifications/email_subject.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/notifications/full.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/notifications/notice_settings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/notifications/short.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/_invoice_table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/_stripe_js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/invoice_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/paymentmethod_create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/paymentmethod_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/paymentmethod_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/paymentmethod_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/subscription_create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/subscription_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/subscription_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/subscription_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/stripe/subscription_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/waitinglist/_list_signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/pinax/waitinglist/_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/site_base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/subnav_base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templatetags/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templatetags/account_tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests/test_auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests/test_commands.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests/test_password.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests/test_views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/timezones.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/sites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/HEAD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/description" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/hooks/applypatch-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/hooks/commit-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/hooks/post-update.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/hooks/pre-applypatch.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/hooks/pre-commit.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/hooks/pre-push.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/hooks/pre-rebase.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/hooks/prepare-commit-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/hooks/update.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2.git/info/exclude" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/context_processors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/migrations/0002_note_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/migrations/0003_note_deleted.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/receivers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/settings_production.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/_account_bar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email/email_confirmation_message.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email/email_confirmation_subject.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email/invite_user.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email/invite_user_subject.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email/password_change.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email/password_change_subject.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email/password_reset.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email/password_reset_subject.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email_confirm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email_confirmation_sent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/email_confirmed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/logout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/password_change.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/password_reset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/password_reset_sent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/password_reset_token.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/password_reset_token_fail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/settings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/account/signup_closed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/privacy_policy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/site_base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/site_base_main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/terms_of_use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/urls_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements-account.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements-stripe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements-zero.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/STATIC_README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/js/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/js/apps/pinax-documents.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/js/apps/pinax-stripe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/js/card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/js/messages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_body.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_config.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_custom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_errors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_externals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_messages.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_pinax.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_account.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_announcements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_cohorts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_documents.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_invitations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_likes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_messages.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_notifications.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/apps/_stripe.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/scss/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/tests/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/tests/fixtures.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/tests/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/tests/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/tests/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/tests/spec/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinememo2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -271,16 +18,28 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.1">
+    <splitter split-orientation="horizontal" split-proportion="0.9">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+                <state relative-caret-position="275">
+                  <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
                   <folding>
                     <element signature="e#0#21#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/account/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="219" column="31" lean-forward="true" selection-start-line="219" selection-start-column="31" selection-end-line="219" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -300,6 +59,34 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
                   <caret line="23" selection-start-line="23" selection-end-line="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/admin.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor>
+                    <caret column="22" selection-start-column="22" selection-end-column="22" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -338,8 +125,8 @@
           <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+                <state relative-caret-position="90">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -425,7 +212,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>site_</find>
       <find>signup</find>
       <find>email</find>
       <find>AUTHENTICATION_BACKENDS</find>
@@ -455,6 +241,7 @@
       <find>button</find>
       <find>anal</find>
       <find>tooltip</find>
+      <find>TODO</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -494,10 +281,8 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/terms_of_use.html" />
         <option value="$PROJECT_DIR$/static/src/scss/index.scss" />
         <option value="$PROJECT_DIR$/onlinememo2/settings.py" />
-        <option value="$PROJECT_DIR$/account/views.py" />
         <option value="$PROJECT_DIR$/onlinememo2/models.py" />
         <option value="$PROJECT_DIR$/onlinememo2/serializer.py" />
-        <option value="$PROJECT_DIR$/onlinememo2/views.py" />
         <option value="$PROJECT_DIR$/static/src/js/app.js" />
         <option value="$PROJECT_DIR$/static/src/scss/_custom.scss" />
         <option value="$PROJECT_DIR$/static/dist/css/app.css" />
@@ -510,6 +295,9 @@
         <option value="$PROJECT_DIR$/static/dist/js/app.js" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/onlinememo2/views.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -544,49 +332,6 @@
             <path>
               <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -688,16 +433,17 @@
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.12637363" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282967" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32882273" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2293956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2760989" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2819383" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16452074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.025751073" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -708,7 +454,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -768,13 +513,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/account/views.py</url>
-          <line>207</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -786,27 +524,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/django/utils/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/django/views/generic/edit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/django/views/decorators/cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/django/views/decorators/debug.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -874,9 +591,6 @@
     <entry file="file://$PROJECT_DIR$/static/src/scss/_pinax.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/dist/js/site.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/account/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -913,16 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="224" column="63" selection-start-line="224" selection-start-column="63" selection-end-line="224" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account/tests/test_views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -937,20 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
           <caret line="90" selection-start-line="90" selection-end-line="93" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/serializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -980,16 +670,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/src/scss/_body.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1111,8 +791,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="219" column="31" lean-forward="true" selection-start-line="219" selection-start-column="31" selection-end-line="219" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/js/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2071">
+          <caret line="5841" column="15" selection-start-line="5841" selection-start-column="15" selection-end-line="5841" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="22" selection-start-column="22" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
