@@ -85,20 +85,26 @@ const vm = new Vue({
                 .done(function (response) {
                     _this.error = 0;
                     _this.loading = false;
-                    response.forIn(function (key, value, index) {
-                        const gottenNoteId = value.id;
+                    response.forIn(function (key, noteCloud, index) {
+                        const noteCloudId = noteCloud.id;
                         let exists = false;
-                        _this.notes.forIn(function (key1, value1, index1) {
-                            const originalNoteId = value1.id;
-                            if (gottenNoteId === originalNoteId) {
+                        _this.notes.forIn(function (key1, noteLocal, index1) {
+                            const noteLocalId = noteLocal.id;
+                            if (noteCloudId === noteLocalId) {
                                 exists = true;
+                                _this.notes.filter(note => note.id === noteLocalId)[0].title = noteCloud.title;
+                                _this.notes.filter(note => note.id === noteLocalId)[0].content = noteCloud.content;
+                                _this.notes.filter(note => note.id === noteLocalId)[0].updated_at = noteCloud.updated_at;
+                                _this.notes.filter(note => note.id === noteLocalId)[0].tags = noteCloud.tags;
+                                _this.notes.filter(note => note.id === noteLocalId)[0].isMarkdown = noteCloud.mdChecked;
+                                _this.saveNotes();
                             }
-                            if (value1.deleted === true) {
+                            if (noteLocal.deleted === true) {
                                 _this.deleteNote(key1);
                             }
                         });
                         if (exists === false) {
-                            _this.notes.push(value);
+                            _this.notes.push(noteCloud);
                         }
                     });
                     _this.saveNotes();
@@ -362,13 +368,11 @@ function indexWhere(array, conditionFn) {
   return array.indexOf(item);
 }
 
-// スクロールを同期してもあまりうまく動かない
-// var mdinput = $('.md-input');
-// var simulator = $('.md-simulator');
-//
-// mdinput.scroll(function () {
-//
-//     simulator.scrollTop(mdinput.scrollTop());//縦スクロールを連動させる。
-//     simulator.scrollLeft(mdinput.scrollLeft());//横スクロールを連動させる。
-//
-// });
+$(function () {
+    $('[data-toggle="tooltip-sidemenu"]').tooltip();
+    $('[data-toggle="tooltip-add"]').tooltip();
+    $('[data-toggle="tooltip-delete"]').tooltip();
+    $('[data-toggle="tooltip-preview"]').tooltip();
+    $('[data-toggle="tooltip-menu"]').tooltip();
+    $('[data-toggle="tooltip-usermenu"]').tooltip();
+});
