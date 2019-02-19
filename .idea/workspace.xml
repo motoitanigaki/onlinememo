@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="" />
+    <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +21,7 @@
           <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="990">
+                <state relative-caret-position="1095">
                   <caret line="73" selection-start-line="73" selection-end-line="73" />
                   <folding>
                     <element signature="e#0#21#0" expanded="true" />
@@ -40,7 +42,7 @@
           <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/account/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2865">
+                <state relative-caret-position="3285">
                   <caret line="219" column="31" selection-start-line="219" selection-start-column="31" selection-end-line="219" selection-end-column="31" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
@@ -105,11 +107,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="271">
-                  <caret line="131" column="12" lean-forward="true" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
+                <state relative-caret-position="211">
+                  <caret line="127" column="49" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
@@ -123,26 +125,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="99" column="43" lean-forward="true" selection-end-line="378" />
+                <state relative-caret-position="229">
+                  <caret line="105" column="36" selection-end-line="378" />
                   <folding>
                     <element signature="e#39#1122#0" />
                     <element signature="e#1156#1410#0" />
                     <element signature="n#!!block;n#sleep#0" />
                     <element signature="e#1672#1885#0" />
-                    <element signature="e#4467#5161#0" />
-                    <element signature="e#5197#5530#0" />
-                    <element signature="e#5562#6233#0" />
-                    <element signature="e#6264#6461#0" />
-                    <element signature="e#7251#7333#0" />
-                    <element signature="e#7372#7784#0" />
-                    <element signature="e#7817#7974#0" />
-                    <element signature="e#9987#10045#0" />
-                    <element signature="e#10099#10676#0" />
-                    <element signature="e#10716#10790#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/src/js/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="378" lean-forward="true" selection-start-line="378" selection-end-line="378" />
+                  <folding>
+                    <element signature="e#39#1122#0" />
+                    <element signature="e#1156#1410#0" />
+                    <element signature="n#!!block;n#sleep#0" />
+                    <element signature="e#1672#1885#0" />
                   </folding>
                 </state>
               </provider>
@@ -170,7 +177,7 @@
           <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/tests.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
+                <state relative-caret-position="495">
                   <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
@@ -296,8 +303,8 @@
         <option value="$PROJECT_DIR$/onlinememo2/templates/base.html" />
         <option value="$PROJECT_DIR$/onlinememo2/tests.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
         <option value="$PROJECT_DIR$/static/dist/js/app.js" />
+        <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
       </list>
     </option>
   </component>
@@ -326,6 +333,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,13 +354,43 @@
             </path>
             <path>
               <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,7 +483,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="23" width="1440" height="825" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.035714287" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -454,43 +492,57 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32882273" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2760989" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36675823" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23748212" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24034335" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.03524229" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.03524229" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23748212" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.035714287" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32692307" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2760989" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36675823" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32882273" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296582" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4107143" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32882273" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.03524229" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2819383" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296582" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32882273" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,8 +697,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        <state relative-caret-position="396">
+          <caret line="378" lean-forward="true" selection-start-line="378" selection-end-line="378" />
+          <folding>
+            <element signature="e#39#1122#0" />
+            <element signature="e#1156#1410#0" />
+            <element signature="n#!!block;n#sleep#0" />
+            <element signature="e#1672#1885#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -695,19 +753,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/settings_production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/settings_production.py" />
     <entry file="file://$PROJECT_DIR$/account/templates/base.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/account/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2865">
+        <state relative-caret-position="3285">
           <caret line="219" column="31" selection-start-line="219" selection-start-column="31" selection-end-line="219" selection-end-column="31" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -774,7 +826,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
+        <state relative-caret-position="1095">
           <caret line="73" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -805,7 +857,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="495">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -835,18 +887,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="131" column="12" lean-forward="true" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
+        <state relative-caret-position="211">
+          <caret line="127" column="49" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -856,23 +902,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="99" column="43" lean-forward="true" selection-end-line="378" />
+        <state relative-caret-position="229">
+          <caret line="105" column="36" selection-end-line="378" />
           <folding>
             <element signature="e#39#1122#0" />
             <element signature="e#1156#1410#0" />
             <element signature="n#!!block;n#sleep#0" />
             <element signature="e#1672#1885#0" />
-            <element signature="e#4467#5161#0" />
-            <element signature="e#5197#5530#0" />
-            <element signature="e#5562#6233#0" />
-            <element signature="e#6264#6461#0" />
-            <element signature="e#7251#7333#0" />
-            <element signature="e#7372#7784#0" />
-            <element signature="e#7817#7974#0" />
-            <element signature="e#9987#10045#0" />
-            <element signature="e#10099#10676#0" />
-            <element signature="e#10716#10790#0" />
           </folding>
         </state>
       </provider>
