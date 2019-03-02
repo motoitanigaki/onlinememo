@@ -48,6 +48,7 @@ class NoteViewSet(viewsets.ModelViewSet):
                 defaults={
                     'title': posted_note['title'],
                     'content': posted_note['content'],
+                    'publishment_status': posted_note['publishment_status'],
                     'created_at': posted_note['created_at'],
                     'updated_at': posted_note['updated_at']
                 }

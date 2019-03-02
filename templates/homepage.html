@@ -100,12 +100,30 @@
 
                         </div>
                     </div>
+
                     <button class="btn btn-sm btn-light bg-white" v-on:click="mdInsertLi()"><i class="fas fa-list-ul"></i></button>
                     <button class="btn btn-sm btn-light bg-white" v-on:click="mdInsertItalic()"><i class="fas fa-italic"></i></button>
                     <button class="btn btn-sm btn-light bg-white" v-on:click="mdInsertBold()"><i class="fas fa-bold"></i></button>
                     <button class="btn btn-sm btn-light bg-white" v-on:click="mdInsertStrike()"><i class="fas fa-strikethrough"></i></button>
                     <button class="btn btn-sm btn-light bg-white" v-on:click="mdInsertCode()"><i class="fas fa-code"></i></button>
-{#                    <button class="btn btn-sm btn-light bg-white" v-on:click="mdInsertQuote()"><i class="fas fa-quote-right"></i></button>#}
+
+                    {% if user.is_authenticated %}
+                        <button class="btn btn-sm btn-light bg-white float-right ml-2"
+                                v-bind:class="{ disabled: !notePublished, 'btn-olm': notePublished }"
+                                v-on:click="copyPublishingUrl()"
+                                data-toggle="modal" data-target="#publishedNoteModal">
+                                <i class="fas fa-link"></i></button>
+                    <div class="publish-toggle float-right">
+                        <div class="toggle-switch">
+                            <input id="publish-toggle" class="toggle-input" type='checkbox' v-model="notePublished" v-on:change="changePublishingStatus()"/>
+                            <label for="publish-toggle" class="toggle-label">シェア</label>
+                            <span></span>
+                        </div>
+                    </div>
+                    {% endif %}
+
+
+                    {#                    <button class="btn btn-sm btn-light bg-white" v-on:click="mdInsertQuote()"><i class="fas fa-quote-right"></i></button>#}
                     <div id="md-editor" class="mt-1" v-if="mdChecked">
                         <textarea class="md-input p-3 small"
                                   :value="noteContent"
@@ -131,7 +149,7 @@
 
         <!-- Modal for note list in mobile devices-->
         <div class="modal fade" id="notesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-             aria-hidden="true">git stash list -p
+             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -152,13 +170,32 @@
                                 <option value="updated_at_ascend">更新日が古い順</option>
                             </select>
                             <li
-                                    v-for="(note, index) in filteredNotes"
-                                    :key="note.id"
-                                    v-on:click="selectNote(note.id)"
-                                    class="list-group-item text-truncate border-0 list-note small"
-                                    data-dismiss="modal">
+                                v-for="(note, index) in filteredNotes"
+                                :key="note.id"
+                                v-on:click="selectNote(note.id)"
+                                class="list-group-item text-truncate border-0 list-note small"
+                                data-dismiss="modal">
                                 [[ note.title ]]
                             </li>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for published note's url-->
+        <div class="modal fade" id="publishedNoteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <p>メモをシェアしたい人にこのURLを共有しましょう。</p>
+                            <input class="form-control" v-model="publishedUrl">
+                            <a class="btn btn-olm btn-block mt-3" target="_blank" v-bind:href="publishedUrl">シェアされたメモを見る</a>
                         </div>
                     </div>
                     <div class="modal-footer">
