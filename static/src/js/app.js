@@ -285,6 +285,71 @@ const vm = new Vue({
                 default:
             }
         },
+        getTexaAreaCursor: function (){
+            const textarea = document.getElementsByTagName('textarea')[0];
+            const text = textarea.value;
+            const left = textarea.selectionStart;
+            const right = textarea.selectionEnd;
+            const leftLine = text.substr(0, left).split('\n').length - 1;
+            const rightLine = text.substr(0, right).split('\n').length;
+            const textRowArray = text.split('\n');
+            const length = this.noteContent.length;
+            const before = this.noteContent.substr(0, left);
+            const selected = this.noteContent.slice(left, right);
+            const after = this.noteContent.substr(right, length);
+
+            return {
+                left: left,
+                right: right,
+                leftLine: leftLine,
+                rightLine: rightLine,
+                textRowArray: textRowArray,
+                length: length,
+                before: before,
+                selected: selected,
+                after: after
+            };
+        },
+        mdInsertLi: function () {
+            let cursor = this.getTexaAreaCursor();
+            let newText = '';
+            cursor.textRowArray.forEach((row, index) => {
+                if ((cursor.leftLine <= index) & (index < cursor.rightLine)) {
+                    newText += '- ' + row + "\n";
+                }else{
+                    newText += row + "\n";
+                }
+            });
+            this.noteContent = newText;
+        },
+        mdInsertItalic() {
+            let cursor = this.getTexaAreaCursor();
+            this.noteContent = cursor.before + '*' + cursor.selected + '*' + cursor.after;
+        },
+        mdInsertBold() {
+            let cursor = this.getTexaAreaCursor();
+            this.noteContent = cursor.before + '**' + cursor.selected + '**' + cursor.after;
+        },
+        mdInsertStrike() {
+            let cursor = this.getTexaAreaCursor();
+            this.noteContent = cursor.before + '~~' + cursor.selected + '~~' + cursor.after;
+        },
+        mdInsertCode() {
+            let cursor = this.getTexaAreaCursor();
+            this.noteContent = cursor.before + '`' + cursor.selected + '`' + cursor.after;
+        },
+        mdInsertQuote: function () {
+            let cursor = this.getTexaAreaCursor();
+            let newText = '';
+            cursor.textRowArray.forEach((row, index) => {
+                if ((cursor.leftLine <= index) & (index < cursor.rightLine)) {
+                    newText += '> ' + row + "\n";
+                }else{
+                    newText += row + "\n";
+                }
+            });
+            this.noteContent = newText;
+        },
         update: _.debounce(function (e) {
             this.noteContent = e.target.value;
         }, 300)

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1288beb8-75f9-4c1a-9337-acf756d3d8d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinememo2/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/src/js/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +16,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.1">
+    <splitter split-orientation="horizontal" split-proportion="0.6775044">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
@@ -36,15 +35,15 @@
             <entry file="file://$PROJECT_DIR$/requirements.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="225">
-                  <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+                  <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-149">
+                <state relative-caret-position="15">
                   <caret line="106" column="115" selection-start-line="106" selection-start-column="115" selection-end-line="106" selection-end-column="115" />
                 </state>
               </provider>
@@ -91,6 +90,15 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="116" column="5" selection-start-line="116" selection-end-line="116" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/onlinememo2/admin.py">
               <provider selected="true" editor-type-id="text-editor" />
@@ -105,15 +113,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mixins.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../onlinememo2_env/lib/python3.6/site-packages/rest_framework/mixins.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1290">
-                  <caret line="90" selection-start-line="90" selection-end-line="93" selection-end-column="58" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -122,16 +121,16 @@
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
-                  <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                  <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="324" selection-start-line="324" selection-end-line="324" />
+                <state relative-caret-position="330">
+                  <caret line="287" column="13" selection-end-line="443" />
                   <folding>
                     <element signature="e#39#1122#0" />
                     <element signature="e#1156#1410#0" />
@@ -148,24 +147,51 @@
                     <element signature="e#8017#8429#0" />
                     <element signature="e#8462#8619#0" />
                     <element signature="e#8652#10590#0" />
-                    <element signature="e#10630#11456#0" />
-                    <element signature="e#10624#10648#0" />
-                    <element signature="e#11562#11959#0" />
-                    <element signature="e#11560#11584#0" />
-                    <element signature="e#12418#12815#0" />
-                    <element signature="e#12844#13243#0" />
-                    <element signature="e#12851#13265#0" />
-                    <element signature="e#10750#11473#0" />
-                    <element signature="e#11457#11532#0" />
-                    <element signature="e#11559#12445#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="requirements-account.txt" pinned="false" current-in-tab="false">
+          <file leaf-file-name="requirements-account.txt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/requirements-account.txt">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/src/js/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="588">
+                  <caret line="443" selection-start-line="443" selection-end-line="443" />
+                  <folding>
+                    <element signature="e#39#1122#0" />
+                    <element signature="e#1156#1410#0" />
+                    <element signature="n#!!block;n#sleep#0" />
+                    <element signature="e#1672#1885#0" />
+                    <element signature="e#1935#4106#0" />
+                    <element signature="e#4142#5074#0" />
+                    <element signature="e#5112#5806#0" />
+                    <element signature="e#5842#6175#0" />
+                    <element signature="e#6207#6878#0" />
+                    <element signature="e#6909#7106#0" />
+                    <element signature="e#7142#7863#0" />
+                    <element signature="e#7896#7978#0" />
+                    <element signature="e#8017#8429#0" />
+                    <element signature="e#8462#8619#0" />
+                    <element signature="e#8652#10590#0" />
+                    <element signature="e#10630#11640#0" />
+                    <element signature="e#11674#12093#0" />
+                    <element signature="e#12120#12273#0" />
+                    <element signature="e#12298#12453#0" />
+                    <element signature="e#12480#12635#0" />
+                    <element signature="e#12660#12813#0" />
+                    <element signature="e#12850#13269#0" />
+                  </folding>
+                </state>
+              </provider>
             </entry>
           </file>
           <file leaf-file-name="requirements-stripe.txt" pinned="false" current-in-tab="false">
@@ -254,8 +280,8 @@
       <find>main</find>
       <find>push</find>
       <find>fa</find>
-      <find>fa</find>
       <find>fas</find>
+      <find>cursor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -297,7 +323,6 @@
         <option value="$PROJECT_DIR$/onlinememo2/settings.py" />
         <option value="$PROJECT_DIR$/onlinememo2/models.py" />
         <option value="$PROJECT_DIR$/onlinememo2/serializer.py" />
-        <option value="$PROJECT_DIR$/static/src/js/app.js" />
         <option value="$PROJECT_DIR$/static/src/scss/_custom.scss" />
         <option value="$PROJECT_DIR$/static/dist/css/app.css" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/_footer.html" />
@@ -313,6 +338,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/onlinememo2/templates/homepage.html" />
         <option value="$PROJECT_DIR$/static/dist/js/app.js" />
+        <option value="$PROJECT_DIR$/static/src/js/app.js" />
       </list>
     </option>
   </component>
@@ -333,7 +359,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="836" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -352,37 +378,6 @@
               <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
               <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlinememo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlinememo2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -481,7 +476,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="836" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.035714287" />
@@ -489,9 +484,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32692307" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32882273" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30852503" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40054128" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.1217862" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18383405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -510,24 +505,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296582" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4107143" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32882273" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.03524229" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2819383" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296582" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32882273" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,15 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -837,9 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements-account.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements-stripe.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -850,45 +833,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py" />
-    <entry file="file://$PROJECT_DIR$/static/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="378" selection-start-line="378" selection-end-line="378" />
-          <folding>
-            <element signature="e#39#1122#0" />
-            <element signature="e#1156#1410#0" />
-            <element signature="n#!!block;n#sleep#0" />
-            <element signature="e#1672#1885#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="106" column="115" selection-start-line="106" selection-start-column="115" selection-end-line="106" selection-end-column="115" />
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        <state relative-caret-position="330">
+          <caret line="287" column="13" selection-end-line="443" />
           <folding>
             <element signature="e#39#1122#0" />
             <element signature="e#1156#1410#0" />
@@ -905,17 +867,68 @@
             <element signature="e#8017#8429#0" />
             <element signature="e#8462#8619#0" />
             <element signature="e#8652#10590#0" />
-            <element signature="e#10630#11456#0" />
-            <element signature="e#10624#10648#0" />
-            <element signature="e#11562#11959#0" />
-            <element signature="e#11560#11584#0" />
-            <element signature="e#12418#12815#0" />
-            <element signature="e#12844#13243#0" />
-            <element signature="e#12851#13265#0" />
-            <element signature="e#10750#11473#0" />
-            <element signature="e#11457#11532#0" />
-            <element signature="e#11559#12445#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="443" selection-start-line="443" selection-end-line="443" />
+          <folding>
+            <element signature="e#39#1122#0" />
+            <element signature="e#1156#1410#0" />
+            <element signature="n#!!block;n#sleep#0" />
+            <element signature="e#1672#1885#0" />
+            <element signature="e#1935#4106#0" />
+            <element signature="e#4142#5074#0" />
+            <element signature="e#5112#5806#0" />
+            <element signature="e#5842#6175#0" />
+            <element signature="e#6207#6878#0" />
+            <element signature="e#6909#7106#0" />
+            <element signature="e#7142#7863#0" />
+            <element signature="e#7896#7978#0" />
+            <element signature="e#8017#8429#0" />
+            <element signature="e#8462#8619#0" />
+            <element signature="e#8652#10590#0" />
+            <element signature="e#10630#11640#0" />
+            <element signature="e#11674#12093#0" />
+            <element signature="e#12120#12273#0" />
+            <element signature="e#12298#12453#0" />
+            <element signature="e#12480#12635#0" />
+            <element signature="e#12660#12813#0" />
+            <element signature="e#12850#13269#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements-account.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/templates/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="106" column="115" selection-start-line="106" selection-start-column="115" selection-end-line="106" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlinememo2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="116" column="5" selection-start-line="116" selection-end-line="116" selection-end-column="5" />
         </state>
       </provider>
     </entry>
