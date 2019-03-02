@@ -15,6 +15,7 @@ urlpatterns = [
     path("about/", TemplateView.as_view(template_name="about.html"), name="about"),
     path("terms-of-use/", TemplateView.as_view(template_name="terms_of_use.html"), name="terms-of-use"),
     path("privacy-policy/", TemplateView.as_view(template_name="privacy_policy.html"), name="privacy-policy"),
+    path("notes/", include("publish.urls")),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

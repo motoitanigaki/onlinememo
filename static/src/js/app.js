@@ -67,9 +67,11 @@ const vm = new Vue({
         noteId: '',
         noteTitle: '',
         noteContent: '',
+        notePublished: false,
         searchQuery: '',
         sortMethod: '',
         selectedIndex: '',
+        publishedUrl: '',
         tags: []
     },
     methods: {
@@ -94,6 +96,7 @@ const vm = new Vue({
                                 exists = true;
                                 _this.notes.filter(note => note.id === noteLocalId)[0].title = noteCloud.title;
                                 _this.notes.filter(note => note.id === noteLocalId)[0].content = noteCloud.content;
+                                _this.notes.filter(note => note.id === noteLocalId)[0].publishment_status = noteCloud.publishment_status;
                                 _this.notes.filter(note => note.id === noteLocalId)[0].updated_at = noteCloud.updated_at;
                                 _this.notes.filter(note => note.id === noteLocalId)[0].tags = noteCloud.tags;
                                 _this.notes.filter(note => note.id === noteLocalId)[0].isMarkdown = noteCloud.mdChecked;
@@ -174,6 +177,11 @@ const vm = new Vue({
             this.noteId = this.notes[index].id;
             this.noteTitle = this.notes[index].title;
             this.noteContent = this.notes[index].content;
+            if (this.notes[index].publishment_status == 'PV'){
+                this.notePublished = false;
+            } else if (this.notes[index].publishment_status == 'UR') {
+                this.notePublished = true;
+            }
             this.tags = this.notes[index].tags;
             this.selectedIndex = index;
         },
@@ -183,6 +191,11 @@ const vm = new Vue({
             }
             this.notes.filter(note => note.id === this.noteId)[0].title = this.noteTitle;
             this.notes.filter(note => note.id === this.noteId)[0].content = this.noteContent;
+            if (this.notePublished === false) {
+                this.notes.filter(note => note.id === this.noteId)[0].publishment_status = 'PV';
+            } else if (this.notePublished === true) {
+                this.notes.filter(note => note.id === this.noteId)[0].publishment_status = 'UR';
+            }
             this.notes.filter(note => note.id === this.noteId)[0].updated_at = getDatetime(new Date());
             this.notes.filter(note => note.id === this.noteId)[0].tags = this.tags;
             this.notes.filter(note => note.id === this.noteId)[0].isMarkdown = this.mdChecked;
@@ -192,6 +205,7 @@ const vm = new Vue({
             this.noteId = '';
             this.noteTitle = '';
             this.noteContent = '';
+            this.notePublished = false;
             this.tags = [];
             document.getElementById('input-title').focus();
         },
@@ -209,6 +223,7 @@ const vm = new Vue({
                 id: noteId,
                 title: this.noteTitle,
                 content: this.noteContent,
+                publishment_status: this.notePublished,
                 created_at: getDatetime(new Date()),
                 updated_at: getDatetime(new Date()),
                 tags: this.tags
@@ -284,6 +299,83 @@ const vm = new Vue({
                     break;
                 default:
             }
+        },
+        getTexaAreaCursor: function (){
+            const textarea = document.getElementsByTagName('textarea')[0];
+            const text = textarea.value;
+            const left = textarea.selectionStart;
+            const right = textarea.selectionEnd;
+            const leftLine = text.substr(0, left).split('\n').length - 1;
+            const rightLine = text.substr(0, right).split('\n').length;
+            const textRowArray = text.split('\n');
+            const length = this.noteContent.length;
+            const before = this.noteContent.substr(0, left);
+            const selected = this.noteContent.slice(left, right);
+            const after = this.noteContent.substr(right, length);
+
+            return {
+                left: left,
+                right: right,
+                leftLine: leftLine,
+                rightLine: rightLine,
+                textRowArray: textRowArray,
+                length: length,
+                before: before,
+                selected: selected,
+                after: after
+            };
+        },
+        mdInsertLi: function () {
+            let cursor = this.getTexaAreaCursor();
+            let newText = '';
+            cursor.textRowArray.forEach((row, index) => {
+                if ((cursor.leftLine <= index) & (index < cursor.rightLine)) {
+                    newText += '- ' + row + "\n";
+                }else{
+                    newText += row + "\n";
+                }
+            });
+            this.noteContent = newText;
+        },
+        mdInsertItalic() {
+            let cursor = this.getTexaAreaCursor();
+            this.noteContent = cursor.before + '*' + cursor.selected + '*' + cursor.after;
+        },
+        mdInsertBold() {
+            let cursor = this.getTexaAreaCursor();
+            this.noteContent = cursor.before + '**' + cursor.selected + '**' + cursor.after;
+        },
+        mdInsertStrike() {
+            let cursor = this.getTexaAreaCursor();
+            this.noteContent = cursor.before + '~~' + cursor.selected + '~~' + cursor.after;
+        },
+        mdInsertCode() {
+            let cursor = this.getTexaAreaCursor();
+            this.noteContent = cursor.before + '`' + cursor.selected + '`' + cursor.after;
+        },
+        mdInsertQuote: function () {
+            let cursor = this.getTexaAreaCursor();
+            let newText = '';
+            cursor.textRowArray.forEach((row, index) => {
+                if ((cursor.leftLine <= index) & (index < cursor.rightLine)) {
+                    newText += '> ' + row + "\n";
+                }else{
+                    newText += row + "\n";
+                }
+            });
+            this.noteContent = newText;
+        },
+        changePublishingStatus: function() {
+            if(this.notePublished === true){
+                this.notes.filter(note => note.id === this.noteId)[0].publishment_status = 'UR';
+            }else{
+                this.notes.filter(note => note.id === this.noteId)[0].publishment_status = 'PV';
+            }
+
+
+        },
+        copyPublishingUrl: function() {
+            this.publishedUrl = 'https://onlinememo.net/notes/'+this.noteId;
         },
         update: _.debounce(function (e) {
             this.noteContent = e.target.value;
@@ -375,4 +467,13 @@ $(function () {
     $('[data-toggle="tooltip-preview"]').tooltip();
     $('[data-toggle="tooltip-menu"]').tooltip();
     $('[data-toggle="tooltip-usermenu"]').tooltip();
+    $('[data-toggle="tooltip-url-link"]').tooltip();
+});
+
+$('.btn').on('click', function (event) {
+    if (($(this).hasClass('disabled')) || ($('#input-title').val() === '')) {
+        event.stopPropagation();
+    } else {
+        $('#publishedNoteModal').modal('show');
+    }
 });
