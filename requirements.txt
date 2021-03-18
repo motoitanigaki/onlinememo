@@ -12,7 +12,7 @@ django-user-accounts==2.0.3
 djangorestframework==3.9.0
 idna==2.8
 jsonfield==2.0.2
-Pillow==5.4.1
+Pillow==8.1.1
 pinax-cli==1.1.4
 pinax-eventlog==2.0.3
 pinax-stripe==4.0.0
