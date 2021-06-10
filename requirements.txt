@@ -3,7 +3,7 @@ chardet==3.0.4
 Click==7.0
 colorama==0.4.1
 crayons==0.1.2
-Django==2.0.5
+Django==2.2.24
 django-appconf==1.0.2
 django-bootstrap-form==3.4
 django-filter==2.0.0
